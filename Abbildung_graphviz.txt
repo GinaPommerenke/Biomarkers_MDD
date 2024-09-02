@@ -1,0 +1,171 @@
+graph G {
+fontname = "Helvetica, Arial, sans-serif"
+overlap = false
+splines = true
+node [fontname="Helvetica, Arial, sans-serif", fontsize = 45]
+edge [fontname = "Helvetica, Arial, sans-serif", penwidth = 7]
+I1 [shape = circle, width = 4, fixedsize = true, fillcolor = green3, style = filled, label = "1-pyrroline"];
+I3 [shape = circle, width = 4, fixedsize = true, fillcolor = green3, style = filled, label = "2-C-Methyl-D-\nerythritol4-\nphosphate"];
+I2 [shape = circle, width = 4, fixedsize = true, fillcolor = green3, style = filled, label = "3-\n(4-Methoxy\nphenyl)propyl\nhydrogen \nsulfate"];
+I5 [shape = circle, width = 4, fixedsize = true, fillcolor = green3, style = filled, label = "4-Amino-2-\nmethyl-5-\nphosphomethyl\npyrimidine"];
+I6 [shape = circle, width = 4, fixedsize = true, fillcolor = green3, style = filled, label = "5-hydroxy-\n4-methoxy-\n5,6-dihydro-\n2H-pyran-\n2-one"];
+I7 [shape = circle, width = 4, fixedsize = true, fillcolor = green3, style = filled, label = "Acetylcarnitine"];
+I8 [shape = circle, width = 4, fixedsize = true, fillcolor = green3, style = filled, label = "D-alpha-\naminobutyric \nacid"];
+I9 [shape = circle, width = 4, fixedsize = true, fillcolor = green3, style = filled, label = "Gamma-\naminobutyric \nacid"];
+I10 [shape = circle, width = 4, fixedsize = true, fillcolor = green3, style = filled, label = "Progabide"];
+I11 [shape = circle, width = 4, fixedsize = true, fillcolor = green3, style = filled, label = "Ursodeoxycholic \nacid"];
+
+I12 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "1-pyrroline-\n4-hydroxy-\n2-carboxylate \ndeaminase"];
+I13 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P14920"];
+
+I14 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "DXP-\nreducto\nisomerase"];
+I15 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "MEP \ncytidylyl\ntransferase"];
+
+I16 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "hydroxymethyl\npyrimidine \nkinase"];
+I17 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "phospho\noxymethyl \npyrimidine \nkinase"];
+I18 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q9BWD1"];
+
+I19 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P43155"];
+I20 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "O43772"];
+
+# GABA HMDB and KEGG
+I21 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P80404"];
+I22 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P49189"];
+I23 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P51648"];
+I24 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P50440"];
+I25 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q05329"];
+I26 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "A5YM72"];
+
+# GABA only HMDB
+I26 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P05091"];
+I27 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P30837"];
+I28 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P15104"];
+I29 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q99259"];
+I30 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q96A70"];
+I31 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P18507"];
+I32 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q9UBS5"];
+I33 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q5JPH6"];
+I34 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "O75899"];
+I35 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P14867"];
+I36 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P47867"];
+I37 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P47869"];
+I38 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P34903"];
+I39 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P48169"];
+I40 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P31644"];
+I41 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q16445"];
+I42 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P18505"];
+I43 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P47870"];
+I44 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P28472"];
+I45 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "O14764"];
+I46 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P78334"];
+I47 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q8N1C3"];
+I48 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q99928"];
+I49 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "O00591"];
+I50 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P24046"];
+I51 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P28476"];
+I52 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "A8MPY1"];
+I53 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q9UN88"];
+I54 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P60520"];
+I55 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "O95166"];
+I56 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q9H0R8"];
+
+# GABA only KEGG
+I57 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "4-methylamino\n butanoate \noxidase"];
+I58 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "aminobutyrate \n aminotransferase \n (ambiguous)"];
+I59 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "glycyl-glycine \ndipeptidase"];
+I60 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q96KN2"];
+I61 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "4-acetamido\nbutyrate \ndeacetylase"];
+I62 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "gamma-glutamyl-\n GABA hydrolase"];
+I63 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "gamma-guanidino \nbutyrate"];
+
+I64 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q9UBS5"];
+I65 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P14867"];
+
+I66 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q04828"];
+I67 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P52895"];
+I68 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q9NPD5"];
+I69 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q9Y6L6"];
+I70 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q15438"];
+I71 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q95342"];
+I72 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q12908"];
+I73 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q14973"];
+I74 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P46721"];
+I75 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "Q96BD0"];
+I76 [shape = circle, width = 3, fixedsize = true, fillcolor = lightblue, style = filled, label = "P51161"];
+
+
+ I1 -- I12 [style = bold, color = orangered]
+ I1 -- I13 [style = bold, color = orangered]
+ 
+ I3 -- I14[style = bold, color = orangered]
+ I3 -- I15[style = bold, color = orangered]
+ 
+ I5 -- I16[style = bold, color = orangered]
+ I5 -- I17[style = bold, color = orangered]
+ I5 -- I18[style = bold, color = orangered]
+ 
+ I7 -- I19[style = bold, color = darkorchid]
+ I7 -- I20[style = bold, color = black]
+ 
+ I9 -- I21[style = bold, color = darkorchid]
+ I9 -- I22[style = bold, color = darkorchid]
+ I9 -- I23[style = bold, color = darkorchid]
+ I9 -- I24[style = bold, color = darkorchid]
+ I9 -- I25[style = bold, color = darkorchid]
+ I9 -- I26[style = bold, color = darkorchid]
+ 
+ I9 -- I27[style = bold, color = black]
+ I9 -- I28[style = bold, color = black]
+ I9 -- I29[style = bold, color = black]
+ I9 -- I30[style = bold, color = black]
+ I9 -- I31[style = bold, color = black]
+ I9 -- I32[style = bold, color = black]
+ I9 -- I33[style = bold, color = black]
+ I9 -- I34[style = bold, color = black]
+ I9 -- I35[style = bold, color = black]
+ I9 -- I36[style = bold, color = black]
+ I9 -- I37[style = bold, color = black]
+ I9 -- I38[style = bold, color = black]
+ I9 -- I39[style = bold, color = black]
+ I9 -- I40[style = bold, color = black]
+ I9 -- I41[style = bold, color = black]
+ I9 -- I42[style = bold, color = black]
+ I9 -- I43[style = bold, color = black]
+ I9 -- I44[style = bold, color = black]
+ I9 -- I45[style = bold, color = black]
+ I9 -- I46[style = bold, color = black]
+ I9 -- I47[style = bold, color = black]
+ I9 -- I48[style = bold, color = black]
+ I9 -- I49[style = bold, color = black]
+ I9 -- I50[style = bold, color = black]
+ I9 -- I51[style = bold, color = black]
+ I9 -- I52[style = bold, color = black]
+ I9 -- I53[style = bold, color = black]
+ I9 -- I54[style = bold, color = black]
+ I9 -- I55[style = bold, color = black]
+ I9 -- I56[style = bold, color = black]
+ 
+ I9 -- I57[style = bold, color = orangered]
+ I9 -- I58[style = bold, color = orangered]
+ I9 -- I59[style = bold, color = orangered]
+ I9 -- I60[style = bold, color = orangered]
+ I9 -- I61[style = bold, color = orangered]
+ I9 -- I62[style = bold, color = orangered]
+ I9 -- I63[style = bold, color = orangered]
+ 
+ I10 -- I64 [style = bold, color = black]
+ I10 -- I65 [style = bold, color = black]
+ 
+ I11 -- I66 [style = bold, color = black]
+ I11 -- I67 [style = bold, color = black]
+ I11 -- I68 [style = bold, color = black]
+ I11 -- I69 [style = bold, color = black]
+ I11 -- I70 [style = bold, color = black]
+ I11 -- I71 [style = bold, color = black]
+ I11 -- I72 [style = bold, color = black]
+ I11 -- I73 [style = bold, color = black]
+ I11 -- I74 [style = bold, color = black]
+ I11 -- I75 [style = bold, color = black]
+ I11 -- I76 [style = bold, color = black]
+ 
+}
