@@ -3,7 +3,7 @@ Code for the publication "Blood-based metabolomics and explainable machine leari
 
 The given files can be used to reconstruct the calculations of the given results as well as the plots relevant for the biological consequences. Since the random forest analysis as well as the regression filters rely on stochastical effects, the results of the own analysis can differ after running the files various times. So, we suggset to use the input files given in the repository. 
 
-The code is written in the programming language R. All used packages are included in the code and will be automatically installed. The R version used is R 4.1.3.
+The code is written in the programming language R. All used packages are included in the code and will be automatically installed. The R version used is R 4.1.3. The code can be used by downloading the Repository and using it in your standard R-environment. No adaptions for the input are necessary. Since some of the results are dependent on stochastic effects, we suggest to use the files given in the repository. 
 
 # Code files
 
