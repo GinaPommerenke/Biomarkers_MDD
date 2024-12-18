@@ -13,9 +13,9 @@ The files include the coding for the results of the uppermentioned publication. 
 2. Preprocessing_Proteome_data.r
    This file contains the preprocessing of the metabolome data.
 3. Regression_Filter.r
-   Linear and logistic regression of preprocessed metabolome and proteome data as well as of the original lipidome data. The files are filtered for three confounders (Age, BMI and sex) to remove analytes which correlate highly with one of the confounders.     Due to stochastic effects, the results of the filtering varies and the extracted final set of analytes differs between the runs. We recommend to use the original datafile provided in the repository to continue with the analysis.
+   Linear and logistic regression of preprocessed metabolome and proteome data as well as of the original lipidome data. The files are filtered for three confounders (Age, BMI and sex) to remove analytes which correlate highly with one of the confounders.     Due to stochastic effects, the results of the filtering vary slightly and the extracted final set of analytes differ between the runs. It is recommended to use the original datafile provided in the repository to continue with the analysis.
 4. RandomForest.r
-   Random forest analysis of the three datasets after the regression filter. First, the twenty most important datafiles of each of the biological levels were extracted by extraction of the feature importances by the built-in method of the random forst        package. Afterwards the extracted features were used for a joint analysis to recieve the overall performance of the model and identify the most promising biomarker candidates. Since the extracted twenty most important features vary due to random          effects, we recommend to use the data provided for all downstream analysis. 
+   Random forest analysis of the three datasets after the regression filter. First, the twenty most important datafiles of each of the biological levels were extracted by extraction of the feature importances by the built-in method of the random forst        package. Afterwards the extracted features were used for a joint analysis to recieve the overall performance of the model and identify the most promising biomarker candidates. Since the extracted twenty most important features vary due to random            effects, we recommend to use the data provided for all downstream analysis. 
 5. RandomForest_combined_shuffle.r
   Analysis, if the performance results of the joint RandomForest analysis is better then random by random shuffeling of the target variable and consecutive calculation of the p-values.
 6. Plots_random_forest.r
@@ -25,7 +25,7 @@ The files include the coding for the results of the uppermentioned publication. 
 8. BoxPlots_Comparison_GABA_ACL.r
    Box plots of the concentrations of GABA and ACL together with the healthy, not depressed control group together with p-values signalling, if the different groups differ in their distributions significantly from one another.
 9. Enrichr_Analysis.r
-   Analysis of the biological functionality of the metabolites. Therefore, proteins corresponding with the metabolites were extracted as described in the publication and afterwards used for a gene set enrichment analysis with enrichr. The resulting pathways were filtered and the resuling ones were visualized.
+   Analysis of the biological functionality of the metabolites. Therefore, proteins corresponding with the metabolites were extracted as described in the publication and afterwards used for a gene set enrichment analysis with enrichr. The resulting     pathways were filtered and the resuling ones were visualized.
 10. Abbildung_graphviz.txt
     Visualization of the combination of the connection of the extracted proteins as described for the Enrichr-Analysis. The code can be used for reconstruction of the visualization of the corresponding visualization in the publication.
 
